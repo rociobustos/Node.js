@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto Agencia de Turismo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <div class="navbar-fixed">
+            <nav class="black">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#!" class="brand-logo orange-text">Golden Trip</a>
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
+                                class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li>
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="estatica1.html">Estatica1</a>
+                            </li>
+                            <li>
+                                <a href="estatica2.html">Estatica2</a>
+
+                            </li>
+                            <li>
+                                <a href="contactoEmpresaTurismo.html">Contacto</a>
+                            </li>
+                            <li>
+                                <a href="contacto.html">Otro ejemplo contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+            <li>
+                <a href="estatica1.html">Estatica1</a>
+            </li>
+            <li>
+                <a href="estatica2.html">Estatica2</a>
+
+            </li>
+            <li>
+                <a href="contactoEmpresaTurismo.html">Contacto</a>
+            </li>
+            <li>
+                <a href="contacto.html">Otro ejemplo contacto</a>
+            </li>
+        </ul>
+
+        <form action="cargarEmpresa" class="form" method="post">
+
+            <div class="form-header">
+                <h1 class="form-title">C<span>ontacto</span></h1>
+            </div>
+            <label for="nombre" class="form-label">Nombres:</label>
+            <input type="text" name="nombre" id="nombre" class="form-input" placeholder="Ingrese nombre.">
+
+            <label for="apellido" class="form-label">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" class="form-input" placeholder="Ingrese apellido.">    
+
+            <label for="correo" class="form-label">Correo Electrónico:</label>
+            <input type="email" name="correo" id="correo" class="form-input" placeholder="Ingrese su correo.">
+
+            <label for="asunto" class="form-label">Asunto:</label>
+            <input type="text" name="asunto" id="asunto" class="form-input"
+                placeholder="Ingrese el asunto de su mensaje.">
+
+            <label for="mensaje" class="form-label">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" class="form-textarea" placeholder="Ingrese su mensaje."></textarea>
+
+            <input type="submit" class="btn-submit" value="ENVIAR">
+
+        </form>
+
+        <!-- Footer -->
+        <footer class="section black white-text center">
+            <p class="flow-text">Golden Trip &copy; 2019</p>
+            <p>Bustos Rita Rocío de los Ángeles </p>
+        </footer>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
